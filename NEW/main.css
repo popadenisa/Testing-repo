@@ -1,0 +1,198 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #eaeaea;
+  padding-top: 80px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #242526;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-search {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.logo .fa-facebook {
+  width: 1.2em;
+  height: 1.2em;
+  font-size: 35px;
+  background-color: rgba(64, 94, 160, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo .fa-facebook:hover {
+  background-color: rgba(64, 94, 160, 0.8);
+}
+
+.search-input {
+  display: block;
+  height: 35px;
+  border: unset;
+  border-radius: 20px;
+  padding: 0 15px;
+}
+
+.main-navigation {
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+}
+
+.main-navigation .navigation {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+
+.nav-icons {
+  font-size: 35px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.nav-icons:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.main-navigation > ul > li > a {
+  display: flex;
+  width: 100%;
+  justify-items: center;
+  align-items: center;
+  padding: 10px 10px;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.links > ul {
+    display: flex;
+    align-items: center;
+}
+
+.links > ul > li {
+    display: flex;
+    align-items: center;
+
+}
+
+.links > ul > li > a {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+.links > ul > li > a > i {
+    font-size: 35px;
+    color: white;
+}
+
+
+
+
+
+
+
+.dropdown {
+    display: none;
+}
+
+
+.main-container {
+    display: flex; 
+    justify-content: space-between;
+}
+
+aside {
+    width: 200px;
+}
+
+.newsfeed {
+    background-color: grey;
+    width: 600px;
+    height: 900px;
+    justify-self: center;
+}
+
+.profile-image-icon {
+    width: 50px;
+    border-radius: 50%;
+    height: auto;
+}
+
+.profile {
+    display: flex;
+}
+
+.post-header {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.profile-name {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.profile-name span {
+    line-height: 15px;
+}
+
+.img-post {
+    max-width: 100%;
+    margin: 0 auto 10px;
+}
+
+.post-description {
+    height: 50px;
+    background-color: white;
+}
